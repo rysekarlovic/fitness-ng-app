@@ -1,0 +1,11 @@
+<div>
+    <form onSubmit="">
+        <label>Date Completed<input name="completion-date-time"></label>
+        <label>Date Completed<input name="completion-date-time"></label>
+        <label>Personal Record Established<input type="radio" id="pr_radio" name="pr_radio"></label><span>Legacy Personal Record: ###</span>
+        @if (pr_set.checked){
+            <label>Personal Record Established<input id="pr_radio" name="pr_set"></label>
+        }
+        <button type="submit">Add Exercise</button>
+    </form>
+</div>
