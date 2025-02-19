@@ -1,0 +1,61 @@
+* {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.workout-history{
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+
+.workout-history-day{
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    background-color: purple;
+    position: relative;
+    padding: 5px;
+}
+
+.workout-date {
+    line-height: 30px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.workout-date span {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+}
+
+#workout-summary-heading {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.workout-today {
+    display: block;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.workout-today-day{
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    background-color: purple;
+    position: relative;
+    padding: 5px;
+    
+}

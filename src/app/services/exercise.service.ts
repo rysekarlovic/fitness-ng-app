@@ -23,6 +23,10 @@ export class ExerciseService {
   editExercises(postId: number){
     return postId
   }
+
+  getDate(){
+    
+  }
   
 
   constructor() { }
